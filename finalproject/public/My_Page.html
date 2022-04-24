@@ -1,0 +1,144 @@
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+      <link rel="stylesheet" href="My_Page.css">
+      <title>
+        Home Page
+      </title>
+      <img style="float: left;" src="https://cdn.discordapp.com/attachments/759665069746552883/777780569106153482/SquarePic_20201116_11520343.jpg" height="10" width="10">
+      <img class="anna" src="https://cdn.discordapp.com/attachments/759665069746552883/777777786811056177/SquarePic_20201116_11355640.jpg" height="10" width="10">
+    </head>
+    <body>
+        <div class="navbar">
+            <a class="active" href="My_Page.html">Home</a>
+            <a href="Trending.html">Trending</a>
+            <a href="News and Updates.html">News and Updates</a>
+            
+          </div>
+          <br>
+          <br>
+          <div class="con">
+
+            <div class="responsive">
+             
+                <a href="https://www.rockstargames.com/V/">
+                  <img src="https://cdn.wallpapersafari.com/78/46/gNHXMs.jpg" alt="Grand Theft Auto V" >
+                </a>
+                <div class="desc" style="font-family: 'Times New Roman', Times, serif;color: white;font-size: large;font-weight: bold;text-align: center;">Grand Theft Auto V</div>
+            
+              </div>
+            
+            <div class="responsive">
+           
+                <a href="https://www.ubisoft.com/en-us/game/watch-dogs/watch-dogs-2">
+                  <img src="https://wallpaperaccess.com/full/681867.jpg" alt="Watch Dogs 2">
+                </a>
+                <div class="desc" style="font-family: 'Times New Roman', Times, serif;color: white;font-weight: bold;font-size: large;text-align: center;">Watch Dogs 2</div>
+            
+            </div>
+            
+            <div class="responsive">
+             
+                <a target="_blank" href="https://www.rockstargames.com/reddeadredemption2/">
+                  <img src="https://etgeekera.files.wordpress.com/2018/01/red-dead-redemption-2-header.jpg" alt="Red Dead Redemption 2" width="600" height="400">
+                </a>
+                <div class="desc" style="font-family: 'Times New Roman', Times, serif;color: white;font-weight: bold;font-size: large;text-align: center;">Red Dead Redemption 2</div>
+            
+            </div>
+            <div class="responsive">
+              
+                <a target="_blank" href="http://www.innersloth.com/gameAmongUs.php">
+                  <img src="https://wallpaperaccess.com/full/4063864.jpg" alt="Among Us" >
+                </a>
+                <div class="desc" style="font-family: 'Times New Roman', Times, serif;color: white;font-weight: bold;font-size: large;text-align: center;">Among Us</div>
+              
+            </div>
+  
+   <div class="responsive">
+              
+                <a target="_blank" href="https://www.pubg.com/">
+                  <img src="https://i.pinimg.com/originals/f1/2e/ba/f12ebab77b858cb1c10ca807e1ca9a2d.jpg" alt="PUBG">
+                </a>
+                <div class="desc" style="font-family: 'Times New Roman', Times, serif;color: white;font-weight: bold;font-size: large;text-align: center;">PUBG</div>
+              </div>
+              
+            </div>
+            <span style="position:absolute; color:white;margin-top:-10rem;right:0;font-size:2rem; cursor:pointer;background-color:red;" onclick="document.getElementsByClassName('con')[0].scrollLeft +=110">&raquo;</span>
+            <span style="position:absolute; color:white;margin-top:-10rem;font-size:2rem; cursor:pointer;background-color:red;" onclick="document.getElementsByClassName('con')[0].scrollLeft -=110">&laquo;</span>
+            <div class="clearfix"></div>
+            <br>
+            <br>
+          <!-- Slideshow container -->         
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="https://www.wallpapertip.com/wmimgs/91-919366_gta-5-wallpaper-hd.jpg" style="width:100%">
+    <div class="text">Grand Theft Auto V</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="https://i.imgur.com/cT2TCAv.jpg" style="width:100%">
+    <div class="text">Counter Strike:Global Offensive</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="https://images6.alphacoders.com/107/thumb-1920-1072679.jpg" style="width:100%">
+    <div class="text">Valorant</div>
+  </div>
+</div>
+<br>  
+
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>  
+  <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+ 
+            <img src="https://cdn.discordapp.com/attachments/759665069746552883/774164675616178206/background.jpg" class="wall" width="200" height="200">
+            <br>
+            <br>
+            <h1 style="color: orange;text-align: center;font-size: 500%;">Our featured video</h1>
+            <br>
+            <iframe style="margin-left: 14%;" src="https://www.youtube.com/embed/4joK9i-9zsY" height="600" width="1080"></iframe>
+            <br>
+            <br>
+            <h1 style="color: orange;text-align: center;font-size: 500%;">Contact Us</h1>
+            <br>
+            
+            
+  <div class="bg-image">
+
+    <div class="bg-text">
+    <p>Facebook : GamingNation</p>
+    <p>Instagarm : @ig.gamingnation</p>
+    <p>Twitter : gamimgnation007</p>
+    <p>Tel No. : +91 8097608881</p>
+    </div>
+  </div>
+    </body>
+</html>
